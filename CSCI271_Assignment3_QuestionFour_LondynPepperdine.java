@@ -10,7 +10,6 @@
 * Purpose:
 * This program reads an integer N and a single digit D from the user
 * and counts how many times D occurs in N using a recursive function.
-* The program demonstrates recursion on integer digits without loops.
 *
 * Algorithm:
 * 1. Read integer N and single digit D from the user.
@@ -59,7 +58,8 @@ public class CSCI271_Assignment3_QuestionFour_LondynPepperdine {
 * Called by: main
 * Calls: itself recursively
 ************************************************************************/
-    public static int countDigit(int N, int D) {
+    public static int countDigit(int N, int D) 
+    {
         //base case
         if (N == 0) {
             return 0;
@@ -67,7 +67,8 @@ public class CSCI271_Assignment3_QuestionFour_LondynPepperdine {
 
         //recursive case: Get the last digit of N
         int remainder = N % 10;
-        if (remainder == D) {
+        if (remainder == D) 
+        {
             N /= 10;
             return 1 + countDigit(N, D);
         } else {
@@ -76,7 +77,8 @@ public class CSCI271_Assignment3_QuestionFour_LondynPepperdine {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         //Scanner for user input
         Scanner Scanner = new Scanner(System.in);
 
@@ -93,6 +95,7 @@ public class CSCI271_Assignment3_QuestionFour_LondynPepperdine {
         System.out.println("Number of times " + small + " if found in " + big + " is: " + numberOfTimes);
 
         //test case
+        System.out.println("Test case: ");
         System.out.println(countDigit(1234567890, 1));
         //Tests the function with the number 1234567890 and the digit 1. It should return 1 as '1' occurs once in "1234567890".
         //passing the number 1234567890 and the digit 1 to the countDigit
