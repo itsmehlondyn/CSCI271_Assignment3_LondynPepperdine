@@ -58,9 +58,11 @@ public class CSCI271_Assignment3_QuestionThree_LondynPepperdine {
 * Called by: main
 * Calls: itself recursively
 ************************************************************************/
-    public static int max(int[] A, int n) {
+    public static int max(int[] A, int n) 
+    {
         //base case
-        if (n == 1) {
+        if (n == 1) 
+        {
             return A[0];
         }
 
@@ -68,14 +70,16 @@ public class CSCI271_Assignment3_QuestionThree_LondynPepperdine {
         int maxOfRest = max(A, n - 1);
 
         // Compare the last element with the maximum of the rest
-        if (A[n - 1] > maxOfRest) {
+        if (A[n - 1] > maxOfRest) 
+        {
             return A[n - 1];
         } else {
             return maxOfRest;
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         //Scanner for user input
         Scanner Scanner = new Scanner(System.in);
 
