@@ -55,7 +55,7 @@ public class CSCI271_Assignment3_QuestionOne_LondynPepperdine {
         if (S.length() == index) {
             return 0;
         }
-        System.out.println(S.charAt(index)); //Print the character at the current index
+        //System.out.println(S.charAt(index)); //test to print the character at the current index
         //Recursive case: Call the function with the next index
         return 1 + stringName(S, index + 1);
     }
