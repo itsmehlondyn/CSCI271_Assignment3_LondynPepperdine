@@ -38,7 +38,7 @@
  ********************************************************************/
 import java.util.Scanner;
 
-public class RecursionQuestionFive {
+public class CSCI271_Assignment3_QuestionFive_LondynPepperdine {
 /*****************************backward********************************
 * Description: Recursively reverses a string.
 *
