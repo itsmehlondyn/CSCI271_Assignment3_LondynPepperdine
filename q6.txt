@@ -1,0 +1,16 @@
+Script started on 2026-02-25 22:34:24-05:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="120" LINES="30"]
+[?2004h]0;pepperdinel2@thur114-hp1: ~/CSCI271_Assignment3_LondynPepperdine[01;32mpepperdinel2@thur114-hp1[00m:[01;34m~/CSCI271_Assignment3_LondynPepperdine[00m$ exitscript q5.txtcd CSCI271_Assignment3_LondynPepperdine/exit[Kjava CSCI271_Assignment3_QuestionFive_LondynPepperdine[C[1P_LondynPepperdine[1P_LondynPepperdine[1P_LondynPepperdine[1P_LondynPepperdineS_LondynPepperdinei_LondynPepperdinex_LondynPepperdine
+[?2004lPlease enter array size: 
+5
+enter your numbers: 
+12
+32
+14
+52
+12
+The sum of the even numbers is: 122
+12
+[?2004h]0;pepperdinel2@thur114-hp1: ~/CSCI271_Assignment3_LondynPepperdine[01;32mpepperdinel2@thur114-hp1[00m:[01;34m~/CSCI271_Assignment3_LondynPepperdine[00m$ exit
+[?2004lexit
+
+Script done on 2026-02-25 22:34:53-05:00 [COMMAND_EXIT_CODE="0"]
