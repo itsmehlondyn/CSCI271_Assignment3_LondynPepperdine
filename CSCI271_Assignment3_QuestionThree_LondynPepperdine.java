@@ -9,8 +9,7 @@
 *
 * Purpose:
 * This program reads a list of integers from the user and finds the maximum
-* element using a recursive function. It demonstrates recursion and
-* array processing without using loops for finding the maximum.
+* element using a recursive function. No loops
 *
 * Algorithm:
 * 1. Read the number of elements from the user.
@@ -98,6 +97,7 @@ public class CSCI271_Assignment3_QuestionThree_LondynPepperdine {
         System.out.println("Maximum element = " + maximum);
 
         //Test case
+        System.out.println("Test case: ");
         System.out.println((max(new int[]{3, 1, 4, 1, 5, 9}, 6)));
         //Tests the function with an array of 6 integers. It should return 9 as the maximum element.
         //passing the array {3, 1, 4, 1, 5, 9} and n = 6 to find the maximum element in the array.
