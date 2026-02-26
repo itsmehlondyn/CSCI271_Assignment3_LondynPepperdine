@@ -42,7 +42,7 @@
 ********************************************************************/
 import java.util.Scanner;
 
-public class RecursionQuestionThree {
+public class CSCI271_Assignment3_QuestionThree_LondynPepperdine {
 /*****************************max***************************************
 * Description: Finds the maximum element in an array recursively.
 *
