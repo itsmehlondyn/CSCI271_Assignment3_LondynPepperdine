@@ -59,7 +59,7 @@ public class CSCI271_Assignment3_QuestionFour_LondynPepperdine
 * Called by: main
 * Calls: itself recursively
 ************************************************************************/
-    public static int countDigit(int N, int D) 
+    public static int countDigit(long N, int D) 
     {
         //base case
         if (N == 0) {
@@ -67,7 +67,7 @@ public class CSCI271_Assignment3_QuestionFour_LondynPepperdine
         }
 
         //recursive case: Get the last digit of N
-        int remainder = N % 10;
+        long remainder = N % 10;
         if (remainder == D) 
         {
             N /= 10;
