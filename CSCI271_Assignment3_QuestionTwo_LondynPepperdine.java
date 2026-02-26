@@ -10,8 +10,7 @@
 * Purpose:
 * This program reads a string and a single character from the user,
 * and counts how many times that character occurs in the string using
-* a recursive function. The program demonstrates recursion, base
-* cases, and string processing without using loops.
+* a recursive function. No loops :)
 *
 *************************************************************************/
 
@@ -51,22 +50,26 @@ public class CSCI271_Assignment3_QuestionTwo_LondynPepperdine {
 * Called by: main
 * Calls: itself recursively
 ************************************************************************/
-    public static int Occurrences(String S, char C) {
+    public static int Occurrences(String S, char C)
+    {
 
         //Base case
-        if (S.length() == 0) {
+        if (S.length() == 0)
+	{
             return 0;
         }
 
         //Recursive case: Check if the first character matches C
-        if (S.charAt(0) == C) {
+        if (S.charAt(0) == C)
+	{
             return 1 + Occurrences(S.substring(1), C);
         }
         // Add the count from the rest of the string
         return Occurrences(S.substring(1), C);
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         //Scanner for user input
         Scanner Scanner = new Scanner(System.in);
 
@@ -82,6 +85,7 @@ public class CSCI271_Assignment3_QuestionTwo_LondynPepperdine {
         System.out.println("The letter " + C + " occurs " + count + " times in the word " + S + ".");
 
         //Test case
+	System.out.println("Test case: ");
         System.out.println(Occurrences("banana", 'a'));
         //Tests the function with the string "banana" and the character 'a'. It should return 3 as 'a' occurs three times in "banana".
         //passing the string "banana" and the character 'a' to the Occurrences

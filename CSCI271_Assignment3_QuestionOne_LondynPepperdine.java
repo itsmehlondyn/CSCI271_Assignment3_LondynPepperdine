@@ -8,10 +8,9 @@
 * Date: February 25, 2026
 *
 * Purpose:
-* This program reads a string from the user and prints each character
-* individually while calculating the total length of the string using
-* a recursive function. The program demonstrates recursion, base cases,
-* and character processing without using loops.
+* This program reads a string from the user and
+* calculates the total length of the string using
+* a recursive function. No loops :)
 *
 *************************************************************************/
 
@@ -50,9 +49,11 @@ public class CSCI271_Assignment3_QuestionOne_LondynPepperdine {
 * Called by: main
 * Calls: itself recursively
 ************************************************************************/
-    public static int stringName(String S, int index) {
+    public static int stringName(String S, int index)
+    {
         //Base case
-        if (S.length() == index) {
+        if (S.length() == index)
+	{
             return 0;
         }
         //System.out.println(S.charAt(index)); //test to print the character at the current index
@@ -60,7 +61,8 @@ public class CSCI271_Assignment3_QuestionOne_LondynPepperdine {
         return 1 + stringName(S, index + 1);
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         //Scanner to read input from the user
         Scanner Scanner = new Scanner(System.in);
 
@@ -76,6 +78,7 @@ public class CSCI271_Assignment3_QuestionOne_LondynPepperdine {
         Scanner.close();
 
         //Test case
+	System.out.println("test case: ");
         System.out.println(stringName("hello", 0));
         //Tests basic condition and recursive calls by
         //passing the string "hello" and starting index 0.
