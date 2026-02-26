@@ -40,7 +40,7 @@
 ********************************************************************/
 import java.util.Scanner;
 
-public class RecursionQuestionFour {
+public class CSCI271_Assignment3_QuestionFour_LondynPepperdine {
 
 /*****************************countDigit*******************************
 * Description: Counts the number of times a digit D occurs in the
