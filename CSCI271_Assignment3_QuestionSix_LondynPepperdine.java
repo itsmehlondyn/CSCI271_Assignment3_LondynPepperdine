@@ -41,7 +41,8 @@
 
 import java.util.Scanner;
 
-public class CSCI271_Assignment3_QuestionSix_LondynPepperdine {
+public class CSCI271_Assignment3_QuestionSix_LondynPepperdine 
+{
 /***************************sumEven**********************************
  * Description: Recursively computes the sum of even numbers in an array
  *
@@ -50,31 +51,33 @@ public class CSCI271_Assignment3_QuestionSix_LondynPepperdine {
  *   i - current index to process
  *
  * Pre: 0 <= i <= n.length
- * Post: Returns the sum of all even numbers in n from index i to end.
+ * Post: Returns the sum of all even numbers in A from index i to end.
  *
  * Returns: int - sum of even numbers
  *
  * Called by: main
  * Calls: itself recursively
  ************************************************************************/
-    public static int sumEven(int[] n, int i) {
+    public static int sumEven(int[] A, int i) 
+    {
 
         //base case
-        if (i == n.length) {
+        if (i == A.length) {
             return 0;
         }
 
         //recursive case: if the number is even add it to the sum if not just call the function again
-        if (n[i] % 2 == 0) {
-            return n[i] + sumEven(n, i + 1);
+        if (A[i] % 2 == 0) {
+            return A[i] + sumEven(A, i + 1);
         }
 
         //if the number is odd just call the function again
-        return sumEven(n, i + 1);
+        return sumEven(A, i + 1);
 
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         //Scanner for user input
         Scanner Scanner = new Scanner(System.in);
 
@@ -88,7 +91,8 @@ public class CSCI271_Assignment3_QuestionSix_LondynPepperdine {
         //Read the numbers into the array
         System.out.println("enter your numbers: ");
         //Loop to read each number into the array
-        for (int i = 0; i < numbers.length; i++) {
+        for (int i = 0; i < numbers.length; i++) 
+        {
             numbers[i] = Scanner.nextInt();
         }
 
