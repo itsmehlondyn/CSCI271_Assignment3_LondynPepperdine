@@ -1,0 +1,12 @@
+Script started on 2026-02-25 22:09:25-05:00 [TERM="xterm-256color" TTY="/dev/pts/11" COLUMNS="120" LINES="30"]
+[?2004h]0;pepperdinel2@thur114-hp1: ~/CSCI271_Assignment3_LondynPepperdine[01;32mpepperdinel2@thur114-hp1[00m:[01;34m~/CSCI271_Assignment3_LondynPepperdine[00m$ exitquitexir[1Ppwd[1Plsscript q1.txt[5Pgit pushcommit .[3Padd[C[C[3@commit[C[Cls[Kjava CSCI271_Assignment3_QuestionSix_LondynPepperdineFive_LondynPepperdineour_LondynPepperdineThree_LondynPepperdine [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pwo_LondynPepperdine
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lEnter a word: lloolpy
+Enter a letter: l
+The letter l occurs 3 times in the word lloolpy.
+Test case: 
+3
+[?2004h]0;pepperdinel2@thur114-hp1: ~/CSCI271_Assignment3_LondynPepperdine[01;32mpepperdinel2@thur114-hp1[00m:[01;34m~/CSCI271_Assignment3_LondynPepperdine[00m$ java CSCI271_Assignment3_QuestionTwo_LondynPepperdineexit[Kquitexit
+[?2004lexit
+
+Script done on 2026-02-25 22:10:00-05:00 [COMMAND_EXIT_CODE="0"]

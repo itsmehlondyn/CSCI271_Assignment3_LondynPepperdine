@@ -1,0 +1,16 @@
+Script started on 2026-02-25 22:14:56-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;pepperdinel2@thur114-hp1: ~/CSCI271_Assignment3_LondynPepperdine[01;32mpepperdinel2@thur114-hp1[00m:[01;34m~/CSCI271_Assignment3_LondynPepperdine[00m$ exitscript q3.txtCSCI271_Assignment3_LondynPepperdine/exit[Kjava CSCI271_Assignment3_QuestionThree_LondynPepperdine [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ke
+[?2004lEnter number of elements: 5
+Enter 5 integers:
+1
+5
+2
+4
+3
+Maximum element = 5
+Test case: 
+9
+[?2004h]0;pepperdinel2@thur114-hp1: ~/CSCI271_Assignment3_LondynPepperdine[01;32mpepperdinel2@thur114-hp1[00m:[01;34m~/CSCI271_Assignment3_LondynPepperdine[00m$ exit
+[?2004lexit
+
+Script done on 2026-02-25 22:15:16-05:00 [COMMAND_EXIT_CODE="0"]

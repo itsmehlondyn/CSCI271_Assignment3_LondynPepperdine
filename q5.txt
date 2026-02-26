@@ -1,0 +1,11 @@
+Script started on 2026-02-25 22:31:43-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;pepperdinel2@thur114-hp1: ~/CSCI271_Assignment3_LondynPepperdine[01;32mpepperdinel2@thur114-hp1[00m:[01;34m~/CSCI271_Assignment3_LondynPepperdine[00m$ exitscript q4.txtjava CSCI271_Assignment3_QuestionFour_LondynPepperdine[C[1P_LondynPepperdine[1P_LondynPepperdine[1P_LondynPepperdinei_LondynPepperdinev_LondynPepperdinee_LondynPepperdine
+[?2004lenter your word: 
+helloteacher
+recursive = rehcaetolleh
+Test case: 
+olleh
+[?2004h]0;pepperdinel2@thur114-hp1: ~/CSCI271_Assignment3_LondynPepperdine[01;32mpepperdinel2@thur114-hp1[00m:[01;34m~/CSCI271_Assignment3_LondynPepperdine[00m$ exit
+[?2004lexit
+
+Script done on 2026-02-25 22:32:09-05:00 [COMMAND_EXIT_CODE="0"]
