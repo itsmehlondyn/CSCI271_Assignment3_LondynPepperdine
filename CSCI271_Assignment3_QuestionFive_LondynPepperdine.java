@@ -3,13 +3,13 @@
  *
  * Author: Londyn Pepperdine
  * WID:
- * OS: Windows / Ubuntu
+ * OS: Windows
  * Compiler: javac 25.0.1
  * Date: February 25, 2026
  *
  * Purpose:
  * This program reads a string from the user and prints it reversed
- * using a recursive function.
+ * using a recursive function. No loops :)
  *
  * Algorithm:
  * 1. Read a string from the user.
@@ -38,7 +38,8 @@
  ********************************************************************/
 import java.util.Scanner;
 
-public class CSCI271_Assignment3_QuestionFive_LondynPepperdine {
+public class CSCI271_Assignment3_QuestionFive_LondynPepperdine 
+{
 /*****************************backward********************************
 * Description: Recursively reverses a string.
 *
@@ -54,7 +55,8 @@ public class CSCI271_Assignment3_QuestionFive_LondynPepperdine {
 * Called by: main
 * Calls: itself recursively
 ************************************************************************/
-    public static String backward(String n) {
+    public static String backward(String n) 
+    {
         //base case
         if (n.length() == 0) {
             return n;
@@ -62,7 +64,8 @@ public class CSCI271_Assignment3_QuestionFive_LondynPepperdine {
 
         int index = 0;
         char c;
-        if (index < n.length()) {
+        if (index < n.length()) 
+        {
             c = n.charAt(index);
             String a = backward(n.substring(1));
             return a + c;
@@ -70,13 +73,15 @@ public class CSCI271_Assignment3_QuestionFive_LondynPepperdine {
         return backward(n.substring(1));
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         Scanner input = new Scanner(System.in);
         System.out.println("enter your word: ");
         String word = input.nextLine();
         System.out.println("recursive = " + backward(word));
 
         //Test case
+        System.out.println("Test case: "); 
         System.out.println(backward("hello")); //olleh
         //Tests the function with the string "hello". It should return "olleh" as the reversed string.
         //passing the string "hello" to the backward function to reverse it and print the result.
