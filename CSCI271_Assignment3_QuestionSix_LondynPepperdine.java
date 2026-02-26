@@ -41,7 +41,7 @@
 
 import java.util.Scanner;
 
-public class RecursionQuestionSix {
+public class CSCI271_Assignment3_QuestionSix_LondynPepperdine {
 /***************************sumEven**********************************
  * Description: Recursively computes the sum of even numbers in an array
  *
