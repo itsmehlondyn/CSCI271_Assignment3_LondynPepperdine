@@ -85,7 +85,7 @@ public class CSCI271_Assignment3_QuestionFour_LondynPepperdine
 
         //Read input number and digit from the user
         System.out.print("Enter number a big number: ");
-        int big = Scanner.nextInt();
+        long big = Scanner.nextInt();
         System.out.println("Enter one digit number: ");
         int small = Scanner.nextInt();
 
