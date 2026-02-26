@@ -32,7 +32,7 @@
 ********************************************************************/
 import java.util.Scanner;
 
-public class CSCI271_Assignment2_QuestionOneLondynPepperdine {
+public class CSCI271_Assignment3_QuestionOneLondynPepperdine {
 /*****************************stringName********************************
 * Description: Recursively prints each character of a string starting
 *              from a given index and calculates the total length.
