@@ -32,7 +32,8 @@
 
 import java.util.Scanner;
 
-public class CSCI271_Assignment3_QuestionTwo_LondynPepperdine {
+public class CSCI271_Assignment3_QuestionTwo_LondynPepperdine 
+{
 /*****************************Occurrences********************************
 * Description: Counts the number of times a given character C occurs in
 *  the input string S using recursion.
